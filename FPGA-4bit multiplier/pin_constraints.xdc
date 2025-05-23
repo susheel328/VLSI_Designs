@@ -1,3 +1,5 @@
+#NOTE THIS IS FOR BOOLEAN BOARD
+
 # Define the input pins for A and B
 set_property -dict { PACKAGE_PIN F4    IOSTANDARD LVCMOS33 } [get_ports { segments[0] }]
 set_property -dict { PACKAGE_PIN J3    IOSTANDARD LVCMOS33 } [get_ports { segments[1] }]
