@@ -1,4 +1,4 @@
-module up_counter(input clk, reset,ud, output reg[3:0] out,output reg [3:0] anodes = 4'b1110 ,output [7:0]segments
+module updown_counter(input clk, reset,ud, output reg[3:0] out,output reg [3:0] anodes = 4'b1110 ,output [7:0]segments
     );
 reg [3:0] counter_up;
 
